@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background-image: url("img/image1.png");
+                background-repeat: no-repeat;
+               /* background-position: center;*/
+                background-size: cover;
+            }
+            .box-size{
+                width: 20%;
+                height: 200px;
+
+            }
+
+            .box-mystery{
+                background-color: rgb(120, 200, 200);
+                opacity: 80%;   
+                border: 25px dashed orange;
+                padding: 25px 50px 75px 100px;
+                margin-bottom: 50px;
+                max-width: 500px;
+
+            }
+
+            .box-surprises{
+                background-color: transparent;
+                opacity: 80%;
+                border-style: solid;
+                border-width: 25px;
+                border-radius: 25px 50px 75px 100px;
+                min-width: 1000px;
+            }
+
+            .box-kwento{
+                background-color: black;
+                border: 10px solid yellow;
+                border-radius: 25px;
+                max-width: 80%;
+                padding: 50px;
+            }
+
+            .box-kwento-title{
+                color: white;
+                
+                text-align: center;
+                text-transform: uppercase;
+            }
+
+            .box-kwento-content{
+                color: white;
+                text-align: center;
+                line-height: 50px;
+                word-spacing: 20px;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        <div>
+            <div style="background-color: pink;">
+                <p>This is Box A.</p>
+            </div>
+
+            <div style="background-color: #fefe1e;">
+                <p>This is box B.</p>
+            </div>
+
+            <div style="background-color: hsl(120, 100%, 50%);">
+                <p>This is box C.</p>
+            </div>
+
+            <div style="background-color: rgb(120, 200, 200);">
+                <p>This is box D.</p>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div>
+            <div class="box-size box-mystery"> <!--Class Selection-->
+                <p>This is A Box of Mystery.</p>
+            </div>
+
+            <div class="box-size box-surprises"> <!--Class Selection-->
+                <p>This is A Box of Surprises.</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="box-kwento">
+            <div class="box-kwento-title">
+                <h1>Alamat ng buhay ay di Karera</h1>
+                <h5>Authored by Aarume and Bea.</h5>
+            </div>
+
+            <div class="box-kwento-content">
+                <p>Si Bea ay nagtanong kay Aarume, ang Tanong ay
+                    kung gagawa ka ng alamat ng... anong alamat?
+                    Maluggay. Nagulat si Bea sa sagot, nadismaya,
+                    kaya tinanong niya si Lester. Ang sagot ni Lester ay
+                    Alamat ng banana. Ngunit ayaw ulit ni Bea, kaya tinanong
+                    niya ulit si Rica. Sabi ni Rica ay, alamat ng Pepsi.
+                </p>
+            </div>
+        </div>
+
+    </body>
+</html>
